@@ -1,0 +1,31 @@
+/* 
+.Circulo{
+   margin-top: 30px;
+   margin-left: 16px;
+   width: 150px;
+   height: 150px;
+   background: #6495ed;
+ 
+   animation-name: Animaciones;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+    animation-direction: reverse; 
+   animation-fill-mode:forwards ; 
+   animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+     animation:;   
+    
+    La propiedad animation de CSS es una propiedad abreviada (shorthand property) para animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count y animation-direction.
+
+La lista de propiedades CSS que pueden ser animadas está disponible; cabe señalar que estas son las mismas propiedades soportadas por CSS transitions.
+    
+    
+    
+}
+@keyframes Animaciones{
+    0%{
+        border-radius: 50%;
+       background: #0000ff;
+    }
+}
+ */

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+header {
+	width:100%; 
+	overflow:hidden; 
+	background:#252932;
+	margin-bottom:20px;
+}
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	transition:all 500ms ease;
+}header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+}.header {
+	position: fixed;
+	height:100px;
+}.header nav {
+	line-height:100px;
+}.contenido{
+    padding-top: 100px;
+}.contenido p{
+    margin-bottom: 1em;
+}.galeria h1{
+    text-align: center;
+    margin:20px 0 15px 0;
+    font-weight: 300;
+}.linea{
+    margin-bottom: 140px;
+}.contenedor-imagenes{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius:3px;
+}.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height:250px;
+    margin-bottom:5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+}.imagen img{
+    width: 100%;
+    height:100%;
+}.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:rgba(0, 118, 192, 0.781) ;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}.overlay h2{
+    color: #fff;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}.imagen:hover .overlay{
+    height:100%;
+}.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 490px;
+    height: 280px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .75);
+}.redes .fab{
+    margin: 0 15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #000;
+   
+    color: white;
+    cursor: pointer;
+}.redes .fab:hover{
+    background:blue;
+    border-radius: 89pc;
+}label{
+    text-decoration: underline 5px;
+    color: blue ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}input{
+    width: 523px;
+    height: 60px;
+    border-radius: 19px;
+    
+}input::placeholder{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 25px;
+}button{
+    
+    color: white ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: black;
+    font-size: 32px;
+    border-radius: 74px;
+   
+    width:  99px;
+    height: 99px;
+}
